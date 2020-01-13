@@ -20,6 +20,7 @@ android:id="@+id/interno1">
 
         android:padding="3dip"
         android:text="   RIESGOS POR DAÑOS ESTRUCTURALES   "
+        android:textSize="21dp"
         android:textColor="@android:color/white" />
 
 
@@ -38,12 +39,12 @@ android:id="@+id/interno1">
 
         <TextView
             android:layout_width="198dp"
-            android:layout_height="50dp"
+            android:layout_height="65dp"
             android:layout_column="0"
             android:padding="3dip"
             android:text="Los aspectos de este apartado, se evaluaran por simple apreciación visual."
             android:textColor="#000000"
-            android:textSize="16sp"
+            android:textSize="21dp"
             android:textStyle="bold" />
 
 
@@ -57,11 +58,12 @@ android:id="@+id/interno1">
         <TableRow android:layout_height="122dp">
 
             <TextView
-                android:layout_width="94dp"
+                android:layout_width="404dp"
                 android:layout_height="50dp"
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Presenta inclinación"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
             <RadioGroup
@@ -110,6 +112,7 @@ android:id="@+id/interno1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Separación de elementos estructurales"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -156,10 +159,11 @@ android:id="@+id/interno1">
 
             <TextView
                 android:layout_width="88dp"
-                android:layout_height="50dp"
+                android:layout_height="65dp"
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Deformación de muros, columnas, losas o trabes"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -209,6 +213,7 @@ android:id="@+id/interno1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Los muros presentan grietas"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -269,6 +274,7 @@ android:id="@+id/interno1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Hundimiento del inmueble"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -318,6 +324,7 @@ android:id="@+id/interno1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Grietas en el piso"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -367,6 +374,7 @@ android:id="@+id/interno1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Existe filtración de agua"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -416,6 +424,7 @@ android:id="@+id/interno1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Presenta daños en escaleras y rampas"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
             <RadioGroup
@@ -467,6 +476,7 @@ android:id="@+id/interno1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Cuenta con dictamen técnico"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
             <RadioGroup

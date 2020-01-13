@@ -21,7 +21,7 @@ android:stretchColumns="1">
         android:padding="3dip"
         android:text="FENÓMENOS PERTURBADORES"
         android:textColor="@android:color/white"
-        android:textSize="18sp" />
+        android:textSize="21dp" />
 
 
 </TableRow>
@@ -43,7 +43,7 @@ android:stretchColumns="1">
             android:layout_column="0"
             android:padding="3dip"
             android:text="DE ORIGEN SOCIO-ORGANIZATIVO  "
-            android:textSize="16sp"
+            android:textSize="21dp"
             android:textStyle="bold"
             android:textColor="#000000"/>
 
@@ -53,7 +53,7 @@ android:stretchColumns="1">
             android:layout_column="0"
             android:padding="3dip"
             android:text="Elementos a evaluar:"
-            android:textSize="16sp"
+            android:textSize="21dp"
             android:textStyle="bold"
             android:textColor="#000000"/>
 
@@ -63,14 +63,14 @@ android:stretchColumns="1">
         <TableRow android:layout_height="122dp">
 
             <TextView
-                android:layout_width="208dp"
+                android:layout_width="450dp"
                 android:layout_height="55dp"
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="1.- Accidentes aéreos, terrestres y fluviales"
-                android:textSize="16sp"
-                android:textStyle="bold"
-                android:textColor="#000000" />
+                android:textColor="#000000"
+                android:textSize="21dp"
+                android:textStyle="bold" />
 
             <RadioGroup
                 android:id="@+id/Rg1"
@@ -120,6 +120,7 @@ android:stretchColumns="1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Accidentes de vehículos que transportan materiales químicos peligrosos (explosiones, gas, cloro, gasolina, solventes, otros)."
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -172,6 +173,7 @@ android:stretchColumns="1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Accidentes en donde se involucren vehículos terrestres de transporte de       pasajeros."
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -222,6 +224,7 @@ android:stretchColumns="1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Accidentes en donde se involucren vehículos aéreos."
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -277,6 +280,7 @@ android:stretchColumns="1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Accidentes en donde se involucren vehículos marítimos de transporte de carga."
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -328,6 +332,7 @@ android:stretchColumns="1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Accidentes en donde se involucren vehículos marítimos de transportes de       pasajeros."
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -377,6 +382,7 @@ android:stretchColumns="1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Otros"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -441,7 +447,7 @@ android:stretchColumns="1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="2.- Terrorismo y sabotaje"
-                android:textSize="16sp"
+                android:textSize="21dp"
                 android:textStyle="bold"
                 android:textColor="#000000" />
 
@@ -497,6 +503,7 @@ android:stretchColumns="1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Robo"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -546,6 +553,7 @@ android:stretchColumns="1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Robo con violencia"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
             <RadioGroup
@@ -594,6 +602,7 @@ android:stretchColumns="1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Secuestro"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -643,6 +652,7 @@ android:stretchColumns="1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Invasión de bienes inmuebles"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -692,6 +702,7 @@ android:stretchColumns="1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Interrupción de vialidades"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -741,6 +752,7 @@ android:stretchColumns="1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Sabotaje a los servicios públicos"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -792,6 +804,7 @@ android:stretchColumns="1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Sabotaje a los servicios privados"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -841,6 +854,7 @@ android:stretchColumns="1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Otros"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -900,7 +914,7 @@ android:stretchColumns="1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="3.- Concentraciones masivas"
-                android:textSize="16sp"
+                android:textSize="21dp"
                 android:textStyle="bold"
                 android:textColor="#000000" />
 
@@ -953,6 +967,7 @@ android:stretchColumns="1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Marchas y manifestaciones"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -1005,6 +1020,7 @@ android:stretchColumns="1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Plantones y mítines"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -1055,6 +1071,7 @@ android:stretchColumns="1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Actos vandálicos"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -1105,6 +1122,7 @@ android:stretchColumns="1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Otros"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -1164,11 +1182,11 @@ android:stretchColumns="1">
 
             <TextView
                 android:layout_width="229dp"
-                android:layout_height="45dp"
+                android:layout_height="65dp"
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="4.- Interrupción de servicios de origen Geológico"
-                android:textSize="16sp"
+                android:textSize="21dp"
                 android:textStyle="bold"
                 android:textColor="#000000" />
 
@@ -1217,7 +1235,7 @@ android:stretchColumns="1">
             android:layout_column="0"
             android:padding="3dip"
             android:text="DE ORIGEN GEOLÓGICO"
-            android:textSize="16sp"
+            android:textSize="21dp"
             android:textStyle="bold"
             android:textColor="#000000" />
 
@@ -1229,7 +1247,7 @@ android:stretchColumns="1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="5.- Agrietamiento"
-                android:textSize="16sp"
+                android:textSize="21dp"
                 android:textStyle="bold"
                 android:textColor="#000000" />
 
@@ -1289,7 +1307,7 @@ android:stretchColumns="1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="6.- Hundimiento de terreno"
-                android:textSize="16sp"
+                android:textSize="21dp"
                 android:textStyle="bold"
                 android:textColor="#000000" />
 
@@ -1341,7 +1359,7 @@ android:stretchColumns="1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="7.- Deslave"
-                android:textSize="16sp"
+                android:textSize="21dp"
                 android:textStyle="bold"
                 android:textColor="#000000" />
 
@@ -1393,7 +1411,7 @@ android:stretchColumns="1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="8.- Deslizamiento de alud"
-                android:textSize="16sp"
+                android:textSize="21dp"
                 android:textStyle="bold"
                 android:textColor="#000000" />
 
@@ -1445,7 +1463,7 @@ android:stretchColumns="1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="9.- Erosión del suelo productivo"
-                android:textSize="16sp"
+                android:textSize="21dp"
                 android:textStyle="bold"
                 android:textColor="#000000" />
 
@@ -1497,7 +1515,7 @@ android:stretchColumns="1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="10.- Sobre explotación de fuentes de agua"
-                android:textSize="16sp"
+                android:textSize="21dp"
                 android:textStyle="bold"
                 android:textColor="#000000" />
 
@@ -1549,7 +1567,7 @@ android:stretchColumns="1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="11.- Sobre explotación de mantos freáticos"
-                android:textSize="16sp"
+                android:textSize="21dp"
                 android:textStyle="bold"
                 android:textColor="#000000" />
 
@@ -1602,7 +1620,7 @@ android:stretchColumns="1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="12.- Sismos o Terremotos"
-                android:textSize="16sp"
+                android:textSize="21dp"
                 android:textStyle="bold"
                 android:textColor="#000000" />
 
@@ -1654,6 +1672,7 @@ android:stretchColumns="1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Derrumbes de edificios aledaños"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -1704,6 +1723,7 @@ android:stretchColumns="1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Caída de torres de alta tensión"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -1754,6 +1774,7 @@ android:stretchColumns="1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text=" Maremotos o Tsunamis"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -1801,10 +1822,11 @@ android:stretchColumns="1">
 
             <TextView
                 android:layout_width="229dp"
-                android:layout_height="75dp"
+                android:layout_height="95dp"
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Vulcanismo (Lluvia de ceniza, Afectacion por lava, Afectaciones por flujos piroclasticos, Afectaciones poe flujos de lodo)"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -1857,6 +1879,7 @@ android:stretchColumns="1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Otros"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 

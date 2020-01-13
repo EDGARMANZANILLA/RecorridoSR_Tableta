@@ -16,12 +16,13 @@
     <TableRow android:background="#128675">
 
         <TextView
-            android:layout_width="177dp"
+            android:layout_width="269dp"
             android:layout_height="match_parent"
             android:layout_column="0"
             android:padding="3dip"
             android:text="Recursos o Materiales"
-            android:textColor="@android:color/white" />
+            android:textColor="@android:color/white"
+            android:textSize="21dp" />
 
     </TableRow>
 
@@ -40,11 +41,12 @@
     <TableRow android:layout_height="122dp">
 
         <TextView
-            android:layout_width="170dp"
+            android:layout_width="407dp"
             android:layout_height="45dp"
             android:layout_column="0"
             android:padding="3dip"
             android:text="Botiquin de primeros auxilios"
+            android:textSize="21dp"
             android:textColor="#000000" />
 
         <RadioGroup
@@ -120,6 +122,7 @@
                     android:layout_column="0"
                     android:padding="3dip"
                     android:text="Cascos"
+                    android:textSize="21dp"
                     android:textColor="#000000" />
 
                 <RadioGroup
@@ -195,6 +198,7 @@
                     android:layout_column="0"
                     android:padding="3dip"
                     android:text="Chalecos"
+                    android:textSize="21dp"
                     android:textColor="#000000" />
 
                 <RadioGroup
@@ -269,6 +273,7 @@
                     android:layout_column="0"
                     android:padding="3dip"
                     android:text="Brazaletes"
+                    android:textSize="21dp"
                     android:textColor="#000000" />
 
                 <RadioGroup
@@ -345,6 +350,7 @@
                     android:layout_column="0"
                     android:padding="3dip"
                     android:text="Botas"
+                    android:textSize="21dp"
                     android:textColor="#000000" />
 
                 <RadioGroup
@@ -420,6 +426,7 @@
                     android:layout_column="0"
                     android:padding="3dip"
                     android:text="Banderillas"
+                    android:textSize="21dp"
                     android:textColor="#000000" />
 
                 <RadioGroup
@@ -493,6 +500,7 @@
                     android:layout_column="0"
                     android:padding="3dip"
                     android:text="Lamparas de emergencia"
+                    android:textSize="21dp"
                     android:textColor="#000000" />
 
                 <RadioGroup
@@ -568,6 +576,7 @@
                     android:layout_column="0"
                     android:padding="3dip"
                     android:text="Equipo de Zapa"
+                    android:textSize="21dp"
                     android:textColor="#000000" />
 
                 <RadioGroup
@@ -645,6 +654,7 @@
                     android:layout_column="0"
                     android:padding="3dip"
                     android:text="Paro de emergencia"
+                    android:textSize="21dp"
                     android:textColor="#000000" />
 
                 <RadioGroup
@@ -719,6 +729,7 @@
                     android:layout_column="0"
                     android:padding="3dip"
                     android:text="Hidrantes"
+                    android:textSize="21dp"
                     android:textColor="#000000" />
 
                 <RadioGroup
@@ -792,6 +803,7 @@
                     android:layout_column="0"
                     android:padding="3dip"
                     android:text="Alarma de emergencia"
+                    android:textSize="21dp"
                     android:textColor="#000000" />
 
                 <RadioGroup
@@ -866,6 +878,7 @@
                     android:layout_column="0"
                     android:padding="3dip"
                     android:text="Megafono"
+                    android:textSize="21dp"
                     android:textColor="#000000" />
 
                 <RadioGroup
@@ -941,6 +954,7 @@
                     android:layout_column="0"
                     android:padding="3dip"
                     android:text="Extintores"
+                    android:textSize="21dp"
                     android:textColor="#000000" />
 
                 <RadioGroup
@@ -1014,6 +1028,7 @@
                     android:layout_column="0"
                     android:padding="3dip"
                     android:text="Camillas"
+                    android:textSize="21dp"
                     android:textColor="#000000" />
 
                 <RadioGroup
@@ -1089,6 +1104,7 @@
                     android:layout_column="0"
                     android:padding="3dip"
                     android:text="Otros 1"
+                    android:textSize="21dp"
                     android:textColor="#000000" />
 
                 <RadioGroup
@@ -1179,6 +1195,7 @@
                     android:layout_column="0"
                     android:padding="3dip"
                     android:text="Otros 2"
+                    android:textSize="21dp"
                     android:textColor="#000000" />
 
                 <RadioGroup
@@ -1266,6 +1283,7 @@
                     android:layout_column="0"
                     android:padding="3dip"
                     android:text="Otros 3"
+                    android:textSize="21dp"
                     android:textColor="#000000" />
 
                 <RadioGroup
@@ -1351,6 +1369,7 @@
                     android:layout_column="0"
                     android:padding="3dip"
                     android:text="Otros 4"
+                    android:textSize="21dp"
                     android:textColor="#000000" />
 
                 <RadioGroup
@@ -1436,6 +1455,7 @@
                     android:layout_column="0"
                     android:padding="3dip"
                     android:text="Otros 5"
+                    android:textSize="21dp"
                     android:textColor="#000000" />
 
                 <RadioGroup

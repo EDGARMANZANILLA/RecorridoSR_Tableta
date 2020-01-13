@@ -20,6 +20,7 @@ android:id="@+id/interno5">
         android:layout_height="30dp"
         android:padding="3dip"
         android:text=" RIESGO POR DEFICIS EN LOS EQUIPOS Y SERV.DE EMERGENCIA"
+        android:textSize="21dp"
         android:textColor="@android:color/white" />
 
 
@@ -37,10 +38,10 @@ android:id="@+id/interno5">
         <!--- /////////////////////////////////////////////////// -->
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="70dp"
+            android:layout_height="wrap_content"
             android:layout_column="0"
             android:padding="3dip"
-            android:textSize="16sp"
+            android:textSize="21dp"
             android:textStyle="bold"
             android:textColor="#000000"
             android:text="Evaluación del riesgo por la carencia, insuficiencia o inoperancia de los equipos y servicios de emergencia en el inmueble."
@@ -52,12 +53,13 @@ android:id="@+id/interno5">
         <TableRow android:layout_height="122dp">
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="487dp"
                 android:layout_height="45dp"
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Sistema de alertamiento"
-                android:textColor="#000000" />
+                android:textColor="#000000"
+                android:textSize="21dp" />
 
             <RadioGroup
                 android:id="@+id/Rg1"
@@ -108,14 +110,15 @@ android:id="@+id/interno5">
         <TableRow android:layout_height="122dp">
 
             <TextView
-                android:layout_width="153dp"
+                android:layout_width="415dp"
                 android:layout_height="45dp"
                 android:layout_column="0"
+                android:clickable="true"
+                android:onClick="eventtext2"
                 android:padding="3dip"
                 android:text="Sistema contra incendio"
                 android:textColor="#EC6501"
-                android:clickable="true"
-                android:onClick="eventtext2"/>
+                android:textSize="21dp" />
 
 
 
@@ -169,6 +172,7 @@ android:id="@+id/interno5">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Extintores"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -215,12 +219,13 @@ android:id="@+id/interno5">
         <TableRow android:layout_height="122dp">
 
             <TextView
-                android:layout_width="179dp"
-                android:layout_height="45dp"
+                android:layout_width="336dp"
+                android:layout_height="65dp"
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Equipo de protección personal para atención de emergencia"
-                android:textColor="#000000" />
+                android:textColor="#000000"
+                android:textSize="21dp" />
 
 
             <RadioGroup
@@ -274,12 +279,13 @@ android:id="@+id/interno5">
             android:layout_height="122dp">
 
             <TextView
-                android:layout_width="180dp"
+                android:layout_width="364dp"
                 android:layout_height="55dp"
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Material y equipo para atención de emergencia"
-                android:textColor="#000000" />
+                android:textColor="#000000"
+                android:textSize="21dp" />
 
 
             <RadioGroup
@@ -329,6 +335,7 @@ android:id="@+id/interno5">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Rutas de evacuación"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -382,6 +389,7 @@ android:id="@+id/interno5">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Salidas de emergencia"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -432,6 +440,7 @@ android:id="@+id/interno5">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Señalización"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
             <RadioGroup
@@ -483,6 +492,8 @@ android:id="@+id/interno5">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Brigadas de emergencia"
+                android:textSize="21dp"
+
                 android:textColor="#000000" />
 
 
@@ -535,6 +546,7 @@ android:id="@+id/interno5">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Sistemas de comunicación de emergencia"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
             <RadioGroup
@@ -586,6 +598,7 @@ android:id="@+id/interno5">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Zonas de seguridad y de conteo"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -636,6 +649,7 @@ android:id="@+id/interno5">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Servicios médicos o de primeros auxilios"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 

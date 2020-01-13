@@ -40,13 +40,14 @@ android:id="@+id/interno2">
         <TableRow android:layout_height="122dp">
 
             <TextView
-                android:layout_width="226dp"
-                android:layout_height="50dp"
+                android:layout_width="337dp"
+                android:layout_height="70dp"
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="CUENTA CON ESCALERS DE SERVICIO"
-                android:textStyle="bold"
-                android:textColor="#000000" />
+                android:textSize="21dp"
+                android:textColor="#000000"
+                android:textStyle="bold" />
 
             <RadioGroup
                 android:id="@+id/Rg11"
@@ -85,6 +86,7 @@ android:id="@+id/interno2">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Escaleras homogéneas"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
             <RadioGroup
@@ -150,6 +152,7 @@ android:id="@+id/interno2">
                 android:padding="3dip"
                 android:text="Cuenta con barandal"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext2"
                 android:textColor="#EC6501"
                 />
@@ -214,6 +217,7 @@ android:id="@+id/interno2">
                 android:padding="3dip"
                 android:text="Cuenta con pasamanos"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext3"
                 android:textColor="#EC6501"
                 />
@@ -277,6 +281,7 @@ android:id="@+id/interno2">
                 android:padding="3dip"
                 android:text="Cuenta con cinta antiderrapante"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext4"
                 android:textColor="#EC6501"
                 />
@@ -347,6 +352,7 @@ android:id="@+id/interno2">
                 android:text="Iluminación artificial"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext5"
                 />
 
@@ -422,10 +428,11 @@ android:id="@+id/interno2">
 
             <TextView
                 android:layout_width="200dp"
-                android:layout_height="50dp"
+                android:layout_height="70dp"
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="CUENTA CON ESCALERS DE EMERGENCIA"
+                android:textSize="21dp"
                 android:textStyle="bold"
                 android:textColor="#000000" />
 
@@ -465,6 +472,7 @@ android:id="@+id/interno2">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Escaleras homogéneasa"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -528,6 +536,7 @@ android:id="@+id/interno2">
                 android:text="Cuenta con barandal"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext7"
                 />
 
@@ -592,6 +601,7 @@ android:id="@+id/interno2">
                 android:text="Cuenta con pasamanos"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext8"/>
 
             <RadioGroup
@@ -658,6 +668,7 @@ android:id="@+id/interno2">
                 android:text="Cuenta con cinta antiderrapante"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext9"
                 />
 
@@ -723,6 +734,7 @@ android:id="@+id/interno2">
                 android:text="Iluminación artificial"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext10"/>
 
             <RadioGroup

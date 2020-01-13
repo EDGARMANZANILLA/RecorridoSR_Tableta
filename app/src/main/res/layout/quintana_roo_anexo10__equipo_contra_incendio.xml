@@ -17,6 +17,8 @@ android:stretchColumns="1">
 
     <TextView
         android:layout_column="0"
+        android:layout_marginStart="180dp"
+        android:layout_marginEnd="100dp"
         android:padding="3dip"
         android:text="#NO DE EXTINTOR"
         android:textColor="@android:color/white" />
@@ -35,7 +37,11 @@ android:stretchColumns="1">
         android:layout_height="wrap_content">
 
         <!-- Contador  -->
-        <TableRow android:layout_width="95dp">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="200dp"
+            android:layout_marginEnd="200dp">
 
             <TextView
                 android:id="@+id/tv1"
@@ -50,19 +56,19 @@ android:stretchColumns="1">
 
 
 
-            <Spinner
-                android:id="@+id/spinner1"
-                android:layout_width="180dp"
-                android:layout_height="50dp"
-                android:layout_column="1"
-                android:padding="3dip">
-
-            </Spinner>
-
-
 
         </TableRow>
 
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginEnd="200dp"
+            android:layout_column="1"
+            android:padding="3dip">
+
+        </Spinner>
 
 
 
@@ -71,6 +77,8 @@ android:stretchColumns="1">
             android:id="@+id/editText1"
             android:layout_width="254dp"
             android:layout_height="56dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginEnd="200dp"
             android:layout_column="0"
             android:ems="10"
             android:hint="Tipo de extintor"
@@ -85,9 +93,12 @@ android:stretchColumns="1">
 
             <Spinner
                 android:id="@+id/spinner2"
+
+                android:layout_marginStart="150dp"
+                android:layout_marginEnd="200dp"
                 android:layout_width="150dp"
                 android:layout_height="40dp"
-                android:layout_column="1"
+                android:layout_column="0"
                 android:padding="3dip">
 
             </Spinner>
@@ -102,6 +113,8 @@ android:stretchColumns="1">
             android:id="@+id/editText2"
             android:layout_width="504dp"
             android:layout_height="56dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginEnd="200dp"
             android:layout_column="0"
             android:ems="10"
             android:hint="Capacidad en kg"
@@ -114,10 +127,12 @@ android:stretchColumns="1">
 
         <!-- P. hidros -->
 
-        <TableRow android:layout_height="122dp">
+        <TableRow android:layout_height="122dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginEnd="200dp">
 
             <TextView
-                android:layout_width="50dp"
+                android:layout_width="102dp"
                 android:layout_height="45dp"
                 android:layout_column="0"
                 android:padding="3dip"
@@ -153,7 +168,9 @@ android:stretchColumns="1">
 
         <!-- valvula -->
 
-        <TableRow android:layout_height="122dp">
+        <TableRow android:layout_height="122dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginEnd="200dp">
 
             <TextView
                 android:layout_width="50dp"
@@ -198,6 +215,8 @@ android:stretchColumns="1">
                 android:id="@+id/spinner3"
                 android:layout_width="50dp"
                 android:layout_height="40dp"
+                android:layout_marginStart="150dp"
+                android:layout_marginEnd="200dp"
                 android:layout_column="1"
                 android:padding="3dip">
 
@@ -211,6 +230,8 @@ android:stretchColumns="1">
             android:id="@+id/editText3"
             android:layout_width="254dp"
             android:layout_height="56dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginEnd="200dp"
             android:layout_column="0"
             android:ems="10"
             android:hint="Presion"
@@ -224,7 +245,9 @@ android:stretchColumns="1">
 
         <!-- Valvula -->
 
-        <TableRow android:layout_height="122dp">
+        <TableRow android:layout_height="122dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginEnd="200dp">
 
             <TextView
                 android:layout_width="50dp"
@@ -263,7 +286,9 @@ android:stretchColumns="1">
 
         <!-- Boquilla -->
 
-        <TableRow android:layout_height="122dp">
+        <TableRow android:layout_height="122dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginEnd="200dp">
 
             <TextView
                 android:layout_width="50dp"
@@ -303,7 +328,9 @@ android:stretchColumns="1">
 
         <!-- Etiqueta de Inspeccion -->
 
-        <TableRow android:layout_height="122dp">
+        <TableRow android:layout_height="122dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginEnd="200dp">
 
             <TextView
                 android:layout_width="90dp"
@@ -345,6 +372,8 @@ android:stretchColumns="1">
             android:id="@+id/editText4"
             android:layout_width="254dp"
             android:layout_height="56dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
             android:layout_column="0"
             android:ems="10"
             android:hint="Ubicacion"
@@ -356,6 +385,8 @@ android:stretchColumns="1">
             android:id="@+id/editText7"
             android:layout_width="254dp"
             android:layout_height="56dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
             android:layout_column="0"
             android:ems="10"
             android:hint="Proveedor"
@@ -367,6 +398,8 @@ android:stretchColumns="1">
             android:id="@+id/editText5"
             android:layout_width="254dp"
             android:layout_height="56dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
             android:layout_column="0"
             android:ems="10"
             android:hint="Fecha de ultima recarga"
@@ -378,6 +411,8 @@ android:stretchColumns="1">
             android:id="@+id/editText6"
             android:layout_width="254dp"
             android:layout_height="56dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
             android:layout_column="0"
             android:ems="10"
             android:hint="Fecha de proxima recarga"

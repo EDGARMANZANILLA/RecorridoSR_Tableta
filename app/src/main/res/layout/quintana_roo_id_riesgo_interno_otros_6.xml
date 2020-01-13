@@ -21,7 +21,8 @@ android:id="@+id/interno6">
         android:padding="3dip"
         android:text="OTROS RIESGOS INTERNOS"
         android:textColor="@android:color/white"
-        android:textSize="18sp" />
+        android:textSize="21dp"
+        />
 
 
 </TableRow>
@@ -43,7 +44,7 @@ android:id="@+id/interno6">
             android:padding="3dip"
             android:text="  1.- Objetos que pueden caer:"
             android:textColor="#000000"
-            android:textSize="16sp"
+            android:textSize="21dp"
             android:textStyle="bold" />
 
 
@@ -52,15 +53,15 @@ android:id="@+id/interno6">
         <TableRow android:layout_height="122dp">
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="421dp"
                 android:layout_height="45dp"
                 android:layout_column="0"
+                android:clickable="true"
+                android:onClick="eventtext1"
                 android:padding="3dip"
                 android:text="Lámparas"
                 android:textColor="#EC6501"
-                android:clickable="true"
-                android:onClick="eventtext1"
-                />
+                android:textSize="21dp" />
 
             <RadioGroup
                 android:id="@+id/Rg1"
@@ -116,6 +117,7 @@ android:id="@+id/interno6">
                 android:text="Candiles"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext2"/>
 
 
@@ -147,14 +149,14 @@ android:id="@+id/interno6">
 
             <EditText
                 android:id="@+id/et2"
-                android:layout_width="118dp"
+                android:layout_width="370dp"
                 android:layout_height="50dp"
                 android:layout_column="0"
                 android:ems="10"
                 android:hint="Observaciones"
                 android:inputType="textPersonName"
                 android:textColor="#3260F5"
-                android:theme="@style/EditText"/>
+                android:theme="@style/EditText" />
         </TableRow>
 
 
@@ -171,6 +173,7 @@ android:id="@+id/interno6">
                 android:text="Bocinas"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext3"
                 />
 
@@ -224,6 +227,7 @@ android:id="@+id/interno6">
                 android:text="Rejillas"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext4"/>
 
 
@@ -283,6 +287,7 @@ android:id="@+id/interno6">
                 android:text="Aparadores de Vidrio"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext5"/>
 
 
@@ -337,6 +342,7 @@ android:id="@+id/interno6">
                 android:text="Canceles de vidrio"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext6"/>
 
 
@@ -390,6 +396,7 @@ android:id="@+id/interno6">
                 android:text="Candelabros"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext7"/>
 
 
@@ -442,6 +449,7 @@ android:id="@+id/interno6">
                 android:text="Plafones"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext8"/>
 
             <RadioGroup
@@ -499,6 +507,7 @@ android:id="@+id/interno6">
                 android:text="Entrepaños o repisas"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext9"/>
 
 
@@ -553,6 +562,7 @@ android:id="@+id/interno6">
                 android:text="Cuadros"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext10"
                 />
 
@@ -606,6 +616,7 @@ android:id="@+id/interno6">
                 android:text="Espejos"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext11"
                 />
 
@@ -659,6 +670,7 @@ android:id="@+id/interno6">
                 android:text="Líquidos tóxicos o inflamables"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext12"
                 />
 
@@ -712,6 +724,7 @@ android:id="@+id/interno6">
                 android:text="Macetas y otros objetos colgantes"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext13"
                 />
 
@@ -763,7 +776,7 @@ android:id="@+id/interno6">
             android:padding="3dip"
             android:text="  2.- Objetos que pueden deslizarse:"
             android:textColor="#000000"
-            android:textSize="16sp"
+            android:textSize="21dp"
             android:textStyle="bold"
             />
 
@@ -781,6 +794,7 @@ android:id="@+id/interno6">
                 android:text="Escritorios"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext14"
                 />
 
@@ -836,6 +850,7 @@ android:id="@+id/interno6">
                 android:text="Mesas"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext15"
                 />
 
@@ -889,6 +904,7 @@ android:id="@+id/interno6">
                 android:text="Sillas"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext16"
                 />
 
@@ -943,6 +959,7 @@ android:id="@+id/interno6">
                 android:text="Refrigeradores"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext17"
                 />
 
@@ -997,6 +1014,7 @@ android:id="@+id/interno6">
                 android:text="Cunas"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext18"
                 />
 
@@ -1052,6 +1070,7 @@ android:id="@+id/interno6">
                 android:text="Camas"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext19"
                 />
 
@@ -1107,6 +1126,7 @@ android:id="@+id/interno6">
                 android:text="Corralitos"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext20"
                 />
 
@@ -1160,6 +1180,7 @@ android:id="@+id/interno6">
                 android:text="Sillas de ruedas"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext21"
                 />
 
@@ -1214,6 +1235,7 @@ android:id="@+id/interno6">
                 android:text="Mobiliario y equipo para trasladar usuarios"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext22"
                 />
 
@@ -1268,6 +1290,7 @@ android:id="@+id/interno6">
                 android:text="Y todos aquellos con ruedas"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext23"
                 />
 
@@ -1324,7 +1347,7 @@ android:id="@+id/interno6">
             android:padding="3dip"
             android:text="  3.- Objetos que pueden volcar:"
             android:textColor="#000000"
-            android:textSize="16sp"
+            android:textSize="21dp"
             android:textStyle="bold" />
 
 
@@ -1339,6 +1362,7 @@ android:id="@+id/interno6">
                 android:text="Equipo de computo"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext24"
                 />
 
@@ -1392,6 +1416,7 @@ android:id="@+id/interno6">
                 android:text="Libreros"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext25"
                 />
 
@@ -1445,6 +1470,7 @@ android:id="@+id/interno6">
                 android:text="Roperos"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext26"
                 />
 
@@ -1498,6 +1524,7 @@ android:id="@+id/interno6">
                 android:text="Lockers"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext27"
                 />
 
@@ -1551,6 +1578,7 @@ android:id="@+id/interno6">
                 android:text="Archiveros"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext28"
                 />
 
@@ -1604,6 +1632,7 @@ android:id="@+id/interno6">
                 android:text="Estantes no anclados"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext29"
                 />
 
@@ -1658,6 +1687,7 @@ android:id="@+id/interno6">
                 android:text="Vitrinas"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext30"
                 />
 
@@ -1712,6 +1742,7 @@ android:id="@+id/interno6">
                 android:text="Tanques de gas"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext31"
                 />
 
@@ -1767,6 +1798,7 @@ android:id="@+id/interno6">
                 android:text="Subdivisiones de espacios no ligados al techo y piso"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext32"
                 />
 
@@ -1819,7 +1851,7 @@ android:id="@+id/interno6">
             android:padding="3dip"
             android:text="  4.- Objetos que pueden ser tóxicos, inflamar y/o explotar:"
             android:textColor="#000000"
-            android:textSize="16sp"
+            android:textSize="21dp"
             android:textStyle="bold"
             />
 
@@ -1835,6 +1867,7 @@ android:id="@+id/interno6">
                 android:text="Recipientes o tanques con combustible"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext33"
                 />
 
@@ -1885,12 +1918,13 @@ android:id="@+id/interno6">
 
             <TextView
                 android:layout_width="229dp"
-                android:layout_height="45dp"
+                android:layout_height="65dp"
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Solventes (thiner, aguarrás) y otras semejantes"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext34"
                 />
 
@@ -1946,6 +1980,7 @@ android:id="@+id/interno6">
                 android:text="Almacén de papel, cartón, entre otros"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext35"
                 />
 
@@ -2001,6 +2036,7 @@ android:id="@+id/interno6">
                 android:text="Pinturas"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext36"
                 />
 
@@ -2057,6 +2093,7 @@ android:id="@+id/interno6">
                 android:text="Líquidos para el control de fauna nociva"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext37"
                 />
 
@@ -2113,6 +2150,7 @@ android:id="@+id/interno6">
                 android:text="Líquidos de limpieza"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext38"
                 />
 
@@ -2169,6 +2207,7 @@ android:id="@+id/interno6">
                 android:text="Otros"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext39"
                 />
 
@@ -2239,7 +2278,7 @@ android:id="@+id/interno6">
             android:padding="3dip"
             android:text="  5.- Objetos que pueden propiciar un incendio:"
             android:textColor="#000000"
-            android:textSize="16sp"
+            android:textSize="21dp"
             android:textStyle="bold"/>
 
 
@@ -2254,6 +2293,7 @@ android:id="@+id/interno6">
                 android:text="Recipientes e instalaciones de gas"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext40"
                 />
 
@@ -2310,6 +2350,7 @@ android:id="@+id/interno6">
                 android:text="Hornillas o parrillas eléctricas"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext41"
                 />
 
@@ -2365,6 +2406,7 @@ android:id="@+id/interno6">
                 android:text="Cafeteras"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext42"
                 />
 
@@ -2413,12 +2455,13 @@ android:id="@+id/interno6">
 
             <TextView
                 android:layout_width="229dp"
-                android:layout_height="45dp"
+                android:layout_height="65dp"
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Contactos, apagadores, clavijas y cables en mal estado"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext43"
                 />
 
@@ -2469,12 +2512,13 @@ android:id="@+id/interno6">
 
             <TextView
                 android:layout_width="229dp"
-                android:layout_height="45dp"
+                android:layout_height="65dp"
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Hornos de microondas sin base o plato protector"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext44"
                 />
 
@@ -2531,6 +2575,7 @@ android:id="@+id/interno6">
                 android:text="Velas y veladoras"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext45"
                 />
 
@@ -2587,6 +2632,7 @@ android:id="@+id/interno6">
                 android:text="Aromatizantes eléctricos"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext46"
                 />
 
@@ -2641,7 +2687,7 @@ android:id="@+id/interno6">
             android:padding="3dip"
             android:text="  6.- Objetos que pueden obstaculizar una evacuación:"
             android:textColor="#000000"
-            android:textSize="16sp"
+            android:textSize="21dp"
             android:textStyle="bold"/>
 
 
@@ -2656,6 +2702,7 @@ android:id="@+id/interno6">
                 android:text="Tapetes"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext47"
                 />
 
@@ -2712,6 +2759,7 @@ android:id="@+id/interno6">
                 android:text="Macetas"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext48"
                 />
 
@@ -2767,6 +2815,7 @@ android:id="@+id/interno6">
                 android:text="Archiveros"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext49"
                 />
 
@@ -2822,6 +2871,7 @@ android:id="@+id/interno6">
                 android:text="Pizarrones portátiles"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext50"
                 />
 
@@ -2878,6 +2928,7 @@ android:id="@+id/interno6">
                 android:text="Muebles"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext51"
                 />
 
@@ -2928,12 +2979,13 @@ android:id="@+id/interno6">
 
             <TextView
                 android:layout_width="229dp"
-                android:layout_height="65dp"
+                android:layout_height="75dp"
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Cubetas, trapeadores, escobas, y todos aquellos que son dejados fuera de su lugar"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext52"
                 />
 
@@ -2989,6 +3041,7 @@ android:id="@+id/interno6">
                 android:text="Juguetes"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext53"
                 />
 
@@ -3041,6 +3094,7 @@ android:id="@+id/interno6">
                 android:text="Equipo y mobiliario"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext54"
                 />
 

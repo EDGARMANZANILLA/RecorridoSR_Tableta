@@ -41,8 +41,9 @@ android:id="@+id/interno3">
             android:layout_column="0"
             android:padding="3dip"
             android:text="  1.- Instalación hidrosanitaria"
+            android:textSize="21dp"
             android:textColor="#000000"
-            android:textSize="16sp"
+
             android:textStyle="bold" />
 
 
@@ -56,6 +57,7 @@ android:id="@+id/interno3">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Presenta fugas"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
             <RadioGroup
@@ -104,12 +106,13 @@ android:id="@+id/interno3">
         <TableRow android:layout_height="122dp">
 
             <TextView
-                android:layout_width="153dp"
+                android:layout_width="428dp"
                 android:layout_height="45dp"
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Daños en cisterna"
-                android:textColor="#000000" />
+                android:textColor="#000000"
+                android:textSize="21dp" />
 
 
 
@@ -160,6 +163,7 @@ android:id="@+id/interno3">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Daños en tuberías"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -210,6 +214,7 @@ android:id="@+id/interno3">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Fuga de agua en sanitarios y baños"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -269,6 +274,7 @@ android:id="@+id/interno3">
                 android:text="Fuga de agua en cocina"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="eventtext5"/>
 
 
@@ -320,8 +326,8 @@ android:id="@+id/interno3">
             android:layout_column="0"
             android:padding="3dip"
             android:text="  2.- Instalación de gas"
+            android:textSize="21dp"
             android:textColor="#000000"
-            android:textSize="16sp"
             android:textStyle="bold" />
 
         <TableRow android:layout_height="122dp">
@@ -332,6 +338,7 @@ android:id="@+id/interno3">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Cuenta con instalación de gas"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -367,6 +374,7 @@ android:id="@+id/interno3">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Presenta fugas"
+                android:textSize="21dp"
                 android:textColor="#EC6501"
                 android:clickable="true"
                 android:onClick="eventtext6"/>
@@ -420,6 +428,7 @@ android:id="@+id/interno3">
                 android:text="Anomalías en el tanque"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="event_text7"/>
 
 
@@ -471,6 +480,7 @@ android:id="@+id/interno3">
                 android:text="Anomalías en tuberías"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="event_text8"/>
 
             <RadioGroup
@@ -520,12 +530,13 @@ android:id="@+id/interno3">
 
             <TextView
                 android:layout_width="229dp"
-                android:layout_height="60dp"
+                android:layout_height="70dp"
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Anomalías en la instalación del suministro de gas: Estufa, calentador de agua"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="event_text9"/>
 
 
@@ -572,10 +583,11 @@ android:id="@+id/interno3">
 
             <TextView
                 android:layout_width="213dp"
-                android:layout_height="45dp"
+                android:layout_height="65dp"
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Cuenta con dictamen técnico de instalación gas"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
             <RadioGroup
@@ -627,7 +639,7 @@ android:id="@+id/interno3">
             android:padding="3dip"
             android:text="  3.- Instalación eléctrica"
             android:textColor="#000000"
-            android:textSize="16sp"
+            android:textSize="21dp"
             android:textStyle="bold" />
 
         <TableRow android:layout_height="122dp">
@@ -640,6 +652,7 @@ android:id="@+id/interno3">
                 android:text="Subestación (protegida y señalada)"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="event_text11"/>
 
 
@@ -689,6 +702,7 @@ android:id="@+id/interno3">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Tablero (con tapa y señalado)"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -738,6 +752,7 @@ android:id="@+id/interno3">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Cableado (entubado o empotrado)"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -787,6 +802,7 @@ android:id="@+id/interno3">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Contactos (protegidos)"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -837,6 +853,7 @@ android:id="@+id/interno3">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Interruptores (con tapa protectora)"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -886,6 +903,7 @@ android:id="@+id/interno3">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Lámparas (funcionando)"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -935,6 +953,7 @@ android:id="@+id/interno3">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Lámparas de emergencia (funcionando)"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -984,6 +1003,7 @@ android:id="@+id/interno3">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Planta de emergencia"
+                android:textSize="21dp"
                 android:textColor="#EC6501"
                 android:clickable="true"
                 android:onClick="event_text18"/>
@@ -1036,6 +1056,7 @@ android:id="@+id/interno3">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Cajas de distribución"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -1082,10 +1103,11 @@ android:id="@+id/interno3">
 
             <TextView
                 android:layout_width="229dp"
-                android:layout_height="45dp"
+                android:layout_height="65dp"
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Cuenta con dictamen técnico de instalación eléctrica"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -1137,20 +1159,21 @@ android:id="@+id/interno3">
             android:layout_column="0"
             android:padding="3dip"
             android:text="  4.- Instalación de aire acondicionado"
+            android:textSize="21dp"
             android:textColor="#000000"
-            android:textSize="16sp"
             android:textStyle="bold"/>
 
         <TableRow android:layout_height="122dp">
 
             <TextView
                 android:layout_width="229dp"
-                android:layout_height="45dp"
+                android:layout_height="65dp"
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="La instalación eléctrica se encuentra protegida"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="event_text21"/>
 
 
@@ -1204,6 +1227,7 @@ android:id="@+id/interno3">
                 android:text="Cuenta con tierra física"
                 android:textColor="#EC6501"
                 android:clickable="true"
+                android:textSize="21dp"
                 android:onClick="event_text22"/>
 
             <RadioGroup
@@ -1252,6 +1276,7 @@ android:id="@+id/interno3">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Instalaciones especiales"
+                android:textSize="21dp"
                 android:textColor="#EC6501"
                 android:clickable="true"
                 android:onClick="event_text23"/>

@@ -17,11 +17,11 @@ android:stretchColumns="1">
 
     <TextView
 
-        android:layout_height="30dp"
+        android:layout_height="40dp"
         android:padding="3dip"
         android:text="IDENT. DE RIESGOS EN EL ENTOR. INMEDIATO"
         android:textColor="@android:color/white"
-        android:textSize="18sp" />
+        android:textSize="21dp" />
 
 
 </TableRow>
@@ -38,11 +38,11 @@ android:stretchColumns="1">
         <!--- /////////////////////////////////////////////////// -->
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="70dp"
             android:layout_column="0"
             android:padding="3dip"
             android:text="Se identificará la presencia de elementos de riesgo en el entorno inmediato (500 metros) del inmueble:"
-            android:textSize="16sp"
+            android:textSize="21dp"
             android:textStyle="bold"
             android:textColor="#000000"
             />
@@ -53,11 +53,12 @@ android:stretchColumns="1">
         <TableRow android:layout_height="122dp">
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="421dp"
                 android:layout_height="45dp"
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Tanques elevados"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
             <RadioGroup
@@ -130,6 +131,7 @@ android:stretchColumns="1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Postes de energía eléctrica en mal estado"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -194,6 +196,7 @@ android:stretchColumns="1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Torres con líneas de alta tensión"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -255,6 +258,7 @@ android:stretchColumns="1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Transformadores de energía eléctrica"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -323,6 +327,7 @@ android:stretchColumns="1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Inmuebles aledaños dañados"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -385,6 +390,7 @@ android:stretchColumns="1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Banquetas desniveladas"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -445,6 +451,7 @@ android:stretchColumns="1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Alcantarillas abiertas"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -504,6 +511,7 @@ android:stretchColumns="1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Árboles grandes que puedan caer"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
             <RadioGroup
@@ -569,6 +577,7 @@ android:stretchColumns="1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Calles muy transitadas"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -631,6 +640,7 @@ android:stretchColumns="1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Fábricas con instalaciones de Gas L.P."
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
             <RadioGroup
@@ -691,6 +701,7 @@ android:stretchColumns="1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Tanques de gas L.P."
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -752,6 +763,7 @@ android:stretchColumns="1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Gasolineras y/o Gaseras"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -813,6 +825,7 @@ android:stretchColumns="1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Anuncios volados  o espectaculares"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -872,6 +885,7 @@ android:stretchColumns="1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Almacenes de sustancias peligrosas"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -934,6 +948,7 @@ android:stretchColumns="1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Fábricas"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -994,6 +1009,7 @@ android:stretchColumns="1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Planta de PEMEX"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -1053,6 +1069,7 @@ android:stretchColumns="1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Basureros"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -1115,6 +1132,7 @@ android:stretchColumns="1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Vías del ferrocarril"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -1177,6 +1195,7 @@ android:stretchColumns="1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Ríos y laderas"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -1238,6 +1257,7 @@ android:stretchColumns="1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Costas"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -1298,6 +1318,7 @@ android:stretchColumns="1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Presas"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
@@ -1362,6 +1383,7 @@ android:stretchColumns="1">
                 android:layout_column="0"
                 android:padding="3dip"
                 android:text="Otros:"
+                android:textSize="21dp"
                 android:textColor="#000000" />
 
 
